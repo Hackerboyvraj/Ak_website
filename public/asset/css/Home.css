@@ -1,0 +1,227 @@
+
+
+
+
+
+
+
+
+
+
+
+
+#BuildDiv
+{
+  /* position: absolute; */
+/* width: 525px; */
+/* height: 420px; */
+left: 0px;
+top: 57px;
+
+/* Headline XXL */
+
+/* font-family: 'Mulish'; */
+font-style: normal;
+font-weight: 800;
+font-size: 120px;
+line-height: 140px;
+/* or 117% */
+
+/* display: flex; */
+align-items: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+/* White */
+
+color: #FFFFFF;
+
+}
+#BuildDiv2{
+  /* position: absolute; */
+/* width: 398px; */
+/* height: 222px; */
+left: 810px;
+top: 470px;
+
+/* Headline XL */
+
+/* font-family: 'Mulish'; */
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 74px;
+/* or 103% */
+
+/* display: flex; */
+align-items: center;
+text-align: right;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+color: #FFE76D;
+
+}
+
+#BuildDiv3{
+  /* position: absolute; */
+/* width: 793px; */
+/* height: 74px; */
+left: 0px;
+top: 764px;
+
+/* Headline XL */
+
+/* font-family: 'Mulish'; */
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 74px;
+/* identical to box height, or 103% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+/* White */
+
+color: #FFFFFF;
+
+text-shadow: 4px 4px 0px #907DD5;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
+#Heading1{
+width: 393px;
+height: 64px;
+
+/* Home Page Headline */
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 64px;
+/* identical to box height, or 114% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+
+/* Main Lilac */
+
+color: #CE91FF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#Heading2{
+	width: 469px;
+	height: 64px;
+	
+	/* Home Page Headline */
+	
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 64px;
+	/* identical to box height, or 114% */
+	
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.01em;
+	text-transform: capitalize;
+	
+	color: #FFA342;
+	
+	
+	/* Inside auto layout */
+	
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+#Heading3{width: 409px;
+	height: 64px;
+	
+	/* Home Page Headline */
+	
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 64px;
+	/* identical to box height, or 114% */
+	
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.01em;
+	text-transform: capitalize;
+	
+	color: #55CBCD;
+	
+	
+	/* Inside auto layout */
+	
+	flex: none;
+	order: 0;
+	flex-grow: 0;}
+
+
+#ChildOfH4{
+	width: 1280px;
+height: 28px;
+
+/* Headline S */
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height, or 117% */
+
+
+/* Neutral 6 */
+
+color: #333333;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+#SdiDiv{
+	/* position: absolute; */
+/* width: 566px; */
+/* height: 50px; */
+left: 0px;
+top: 0px;
+
+/* Headline L */
+
+/* font-family: 'Mulish'; */
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+text-transform: capitalize;
+
+/* Neutral 4 */
+
+color: #777777;
+
+}
