@@ -164,11 +164,50 @@
 
         }
 
-        @media only screen and (max-width: 991px){
+        @media only screen and (max-width: 1204px){
            #left-box{
             margin-top: 290px;
             margin-left: 30px;
            }            
+        }
+        @media only screen and (max-width: 700px){
+
+            #btn-fot-1{
+                margin-left: -37px;
+                margin-top: 5px;
+                width: 146px;
+            }
+
+            #btn-fot-2{
+                margin-left: -8px;
+                margin-top: 67px;
+                width: 158px;
+            }
+
+            #btn-fot-3{
+                margin-left: -75px;
+                margin-top: 81px;
+                width: 141px;
+            }
+
+            #btn-fot-4{
+                margin-left: -14px;
+                margin-top: 134px;
+                width: 142px;
+            }
+          
+            #btn-fot-5{
+                margin-left: -56px;
+                margin-top: 147px;
+                width: 169px;
+            }
+             
+
+            #btn-fot-6{
+                margin-left: 4px;
+                margin-top: 195px;
+                width: 142px;
+            }
         }
     </style>
 </head>

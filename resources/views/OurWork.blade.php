@@ -324,18 +324,20 @@
 
   <section>
 
-    <div class="container mt-5" style="display: flex;">
-
+    <div class="container mt-5" >
+    <div class="row" >
+     <div class="col-lg-4" style="display: contents;">
+    
 
         @if($extraData['type'] == "Software")
-          <img src="{{url('asset/img/select-software.svg')}}">
-          <img style="cursor: pointer;" onclick="showHardware()" src="{{url('asset/img/unselect-hardware.svg')}}">
+          <img style="height: 200px;" src="{{url('asset/img/select-software.svg')}}">
+          <img style="cursor: pointer; height: 200px;" onclick="showHardware()" src="{{url('asset/img/unselect-hardware.svg')}}">
           <br>
         @else
-          <img style="cursor: pointer;" onclick="showSoftware()" src="{{url('asset/img/unselect-software.svg')}}">
-          <img src="{{url('asset/img/select-hardware.svg')}}">
+          <img style="cursor: pointer; height: 200px;" onclick="showSoftware()" src="{{url('asset/img/unselect-software.svg')}}">
+          <img style="height: 200px;"  src="{{url('asset/img/select-hardware.svg')}}">
         @endif
-          
+     </div>  
       
           
         <!--   <div  class="select-software" onclick="showSoftware()">
@@ -349,7 +351,7 @@
 
                
        
-        
+        <div class="col-lg-6">
           <div class="input-group ">
             <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="basic-addon1" fdprocessedid="d7ie8">
             <span class="input-group-text" id="basic-addon1">
@@ -359,23 +361,26 @@
             </span>
           
           </div><br><br>
+        
           <div>
             <select style="width: 100%; height: 40px;">
               <option>category 1</option>
               <option>category 2</option>
             </select>
           </div><br><br>
-          <div>
+         
+            
             <select style="width: 100%; height: 40px;">
               <option>category 1</option>
               <option>category 2</option>
             </select>
+            </div>
+            </div>
           </div>
-        </div>
-      </div>
+      
 
 
-
+      <div class="container">
       <div class="Hot_Listing_row">
         @foreach($ourWork as $work)
         <div class="col-lg-4">
@@ -415,6 +420,7 @@
         <path fill="currentColor" d="M14.58 16.59L19.17 12l-4.59-4.59L16 6l6 6l-6 6l-1.42-1.41m-6 0L13.17 12L8.58 7.41L10 6l6 6l-6 6l-1.42-1.41m-6 0L7.17 12L2.58 7.41L4 6l6 6l-6 6l-1.42-1.41Z" />
       </svg>
     </div>
+  </div>
 
 
 

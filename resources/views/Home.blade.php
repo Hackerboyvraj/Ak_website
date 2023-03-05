@@ -484,6 +484,9 @@ a{
   }
 }
 @media only screen and (max-width: 797px){
+  .primary-navigation[data-state="opened"]{
+    margin-top: 887px;
+  }
   #per-txt{
     margin-top: -370px;
     margin-left: 61px;
@@ -970,7 +973,7 @@ a{
         </div>
           
       </section>
-      <!-- @include('Footer')   -->
+      @include('Footer')  
 
 
 

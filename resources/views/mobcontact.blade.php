@@ -164,7 +164,15 @@ a{
   100%{
     clip-path: circle(0% at top right);
   }
+}
+#bg-col{
+  background-color: #FFED9A;
 }  
+@media only screen and (max-width: 583px){
+  #bg-col{
+    width: 583px;
+  }
+}
 
     </style>
 </head>
@@ -210,7 +218,7 @@ a{
 
 
 
-    <div style="background-color: #FFED9A;"><br><br>
+    <div id="bg-col"><br><br>
         <h1 class="text-center">STRAIGHT TO BUSINESS</h1>
         <h4 class="text-center">You can schedule a call</h4>
         <h4 class="text-center">after filling this form</h4><br><br>
